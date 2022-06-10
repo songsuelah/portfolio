@@ -37,14 +37,18 @@
 }
 #modal .body .button {
     text-align: right;
-    margin-bottom: 2rem;
 }
 #modal .body .button button {
-    padding: 6px 12px;
+    width: 4rem;
+    height: 4rem;
     border: none;
-    border-radius: 6px;
-    background: #d63384;
-    color: white;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 /*이미지 1*/
 
