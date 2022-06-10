@@ -349,6 +349,12 @@
     overflow: auto;
 }
 
+#image6 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
 #image6 .body .button {
     text-align: right;
 }
