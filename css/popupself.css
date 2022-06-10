@@ -1,0 +1,388 @@
+
+#modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#modal .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#modal .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#modal .body img {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#modal .body .button {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+#modal .body .button button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #d63384;
+    color: white;
+}
+/*이미지 1*/
+
+
+#image1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image1 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image1 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image1 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+#image1 .body .button {
+    text-align: right;
+}
+#image1 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*이미지2*/
+#image2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image2 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image2 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image2 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+#image2 .body .button {
+    text-align: right;
+}
+#image2 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*이미지3*/
+#image3 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image3 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image3 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image3 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+#image3 .body .button {
+    text-align: right;
+}
+#image3 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*이미지4*/
+#image4 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image4 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image4 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image4 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+#image4 .body .button {
+    text-align: right;
+}
+#image4 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*이미지5*/
+#image5 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image5 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image5 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image5 .body img {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+#image5 .body .button {
+    text-align: right;
+}
+#image5 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/*이미지2*/
+#image6 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#image6 .body {
+    padding: 1rem;
+    position: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transform: translate(12%, 10%);
+    top: 10%;
+    /*opacity: 0;*/
+    width: 80%;
+    height: 85%;
+    background: white;
+}
+
+#image6 .body .img {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+}
+
+#image6 .body .button {
+    text-align: right;
+}
+#image6 .body .button button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: none;
+    background: none;
+    color: none;
+    background-image: url(../assets/img/delete.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+/*밀줄*/
+.line2{
+
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    bottom: -3px;
+    right: 0%;
+    transition: all .2s ease-in-out;
+    z-index: 9999;
+
+}
+
+.line:hover .line2{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    bottom: -3px;
+    right: 0%;
+    z-index: 9999;
+}
