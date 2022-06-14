@@ -6,7 +6,7 @@ $(function(){
           var img_src = $(img_name).attr('src');
           $('#modal').show();
           $('#modal img').attr('src',img_src);
-          $('#modal .txt').text(img_src);
+
       })
   })
  $("#modal button").click(function() {
@@ -22,7 +22,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image1').show();
             $('#image1 img').attr('src',img_src);
-            $('#image1 .txt').text(img_src);
+
         })
     })
    $("#image1 button").click(function() {
@@ -37,7 +37,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image2').show();
             $('#image2 img').attr('src',img_src);
-            $('#image2 .txt').text(img_src);
+
         })
     })
    $("#image2 button").click(function() {
@@ -52,7 +52,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image3').show();
             $('#image3 img').attr('src',img_src);
-            $('#image3 .txt').text(img_src);
+
         })
     })
    $("#image3 button").click(function() {
@@ -67,7 +67,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image4').show();
             $('#image4 img').attr('src',img_src);
-            $('#image4 .txt').text(img_src);
+
         })
     })
    $("#image4 button").click(function() {
@@ -82,7 +82,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image5').show();
             $('#image5 img').attr('src',img_src);
-            $('#image5 .txt').text(img_src);
+
         })
     })
    $("#image5 button").click(function() {
@@ -97,7 +97,7 @@ $(function(){
             var img_src = $(img_name).attr('src');
             $('#image6').show();
             $('#image6 img').attr('src',img_src);
-            $('#image6 .txt').text(img_src);
+
         })
     })
    $("#image6 button").click(function() {
