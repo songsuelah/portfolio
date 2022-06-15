@@ -5456,7 +5456,7 @@ textarea.form-control-lg {
     justify-content: center;
   }
   .image10 img{
-    width: calc((100%)/8);
+    width: calc((100%)/7);
     margin: 0.3rem 0.5rem;
   }
   .list-group-horizontal-lg > .list-group-item:first-child {
@@ -5522,7 +5522,7 @@ textarea.form-control-lg {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: calc((100%)/4);
+    width: calc((100%)/3);
     position: absolute;
     left: 60%;
     bottom: 10%;
